@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteVocabActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    >
+    <EditText
+        android:id="@+id/txtChinese"
+        android:hint="Enter Chinsese Word"
+        style="@style/EditTextTheme"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:id="@+id/txtEnglish"
+        style="@style/EditTextTheme"
+        android:hint="Enter English Word"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/txtBurmese"
+        style="@style/EditTextTheme"
+        android:hint="Enter Burmese Word"
+        android:layout_marginTop="16dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnSaveWord"
+            android:text="Save"
+            style="@style/AddButtonTheme"
+            android:layout_marginRight="20dp"
+            />
+        <Button
+            android:id="@+id/btnCancelWord"
+            android:text="Cancel"
+            style="@style/AddButtonTheme"
+            />
+    </LinearLayout>
+</LinearLayout>

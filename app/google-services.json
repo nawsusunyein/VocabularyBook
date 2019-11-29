@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "146901239457",
+    "firebase_url": "https://vocabbook-a31ed.firebaseio.com",
+    "project_id": "vocabbook-a31ed",
+    "storage_bucket": "vocabbook-a31ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146901239457:android:446498bd0aab5fa63812e0",
+        "android_client_info": {
+          "package_name": "com.example.vocabularybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146901239457-4rokf4udovj6d1aerugmn0h0vfn8a6f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnKstP3Gq5gelY9eliTP7B95S1YbCFhCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146901239457-4rokf4udovj6d1aerugmn0h0vfn8a6f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
