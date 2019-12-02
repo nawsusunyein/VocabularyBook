@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnWriteVocab = (Button) findViewById(R.id.btnWriteVocab);
         btnReadVocab = (Button) findViewById(R.id.btnReadVocab);
 
-        btnWriteVocab.setOnClickListener(new View.OnClickListener() {
+        btnReadVocab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent readVocabIntent = new Intent(MainActivity.this,ReadVocabActivity.class);
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnReadVocab.setOnClickListener(new View.OnClickListener() {
+        btnWriteVocab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent writeVocabIntent = new Intent(MainActivity.this,WriteVocabActivity.class);
